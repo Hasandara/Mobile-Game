@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity(), GameTask {
         rootLayout = findViewById(R.id.rootLayout)
         score = findViewById(R.id.score)
         mGameView = GameView(this, this)
+        //change
 
         startBtn.setOnClickListener {
             mGameView.setBackgroundResource(R.drawable.road)
